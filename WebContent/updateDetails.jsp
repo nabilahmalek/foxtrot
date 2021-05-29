@@ -32,9 +32,9 @@
 	<!DOCTYPE html>
 	<style>
 	label {
-   	width: 200px;
+   	width: 100px;
    	display: inline-block;
-   	text-align: left;
+   	text-align: right;
 	}
 </style>
 	<html>
