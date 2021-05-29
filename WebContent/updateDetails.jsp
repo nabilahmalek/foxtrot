@@ -56,19 +56,19 @@
 	<input type="text" name="staff_id" value="<%=resultSet.getString("staff_id") %>" disabled>
 	<br><br>
 	<label>NAME: </label>
-	<input type="text" name="staff_name" value="<%=resultSet.getString("staff_name") %>">
+	<input type="text" name="staff_name" value="<%=resultSet.getString("staff_name") %>" required>
 	<br><br>
 	<label>GENDER: </label>
-	<input type="text" name="staff_gender" value="<%=resultSet.getString("staff_gender") %>">
+	<input type="text" name="staff_gender" value="<%=resultSet.getString("staff_gender") %>" required>
 	<br><br>
 	<label>ADDRESS: </label>
-	<input type="text" name="staff_address" value="<%=resultSet.getString("staff_address") %>">
+	<input type="text" name="staff_address" value="<%=resultSet.getString("staff_address") %>" required>
 	<br><br>
 	<label>P.NUMBER: </label>
-	<input type="text" name="staff_phone" value="<%=resultSet.getString("staff_phone") %>">
+	<input type="text" name="staff_phone" value="<%=resultSet.getString("staff_phone") %>" required>
 	<br><br>
 	<label>CATEGORY: </label>
-	<input type="text" name="staff_category" value="<%=resultSet.getString("staff_category") %>">
+	<input type="text" name="staff_category" value="<%=resultSet.getString("staff_category") %>" required>
 	<br><br>
 	<input type="submit" value="submit">
 		</center>				
