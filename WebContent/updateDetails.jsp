@@ -4,10 +4,9 @@
 	<%
 	String id = request.getParameter("staff_id");
 	String driver = "com.mysql.jdbc.Driver";
-	String connectionUrl = "jdbc:mysql://localhost:3306/";
-	String database = "restaurant";
-	String userid = "root";
-	String password = "Eqmalzahri1@";
+	String connectionUrl = "jdbc:mysql://us-cdbr-east-04.cleardb.com:3306/heroku_82bd4eac5871c46";
+	String userid = "b83c5dac6a4a40";
+	String password = "1bbc4399";
 	
 	try {
 	Class.forName(driver);
@@ -22,7 +21,7 @@
 	%>
 	<%
 	try{
-	connection = DriverManager.getConnection(connectionUrl+database, userid, password);
+	connection = DriverManager.getConnection(connectionUrl, userid, password);
 	statement=connection.createStatement();
 	String sql ="select * from staff where staff_id="+id;
 	resultSet = statement.executeQuery(sql);
