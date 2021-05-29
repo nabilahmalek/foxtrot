@@ -32,24 +32,25 @@
 	<!DOCTYPE html>
 	<html>
 	<body>
+	<center>
 	<h1>Update Staff Details</h1>
 	<form method="post" action="updateProcess.jsp">
 	<input type="hidden" name="staff_id" value="<%=resultSet.getString("staff_id") %>">
 	<input type="text" name="staff_id" value="<%=resultSet.getString("staff_id") %>">
 	<br>
-	Name:<br>
+	Name:
 	<input type="text" name="staff_name" value="<%=resultSet.getString("staff_name") %>">
 	<br>
-	Gender:<br>
+	Gender:
 	<input type="text" name="staff_gender" value="<%=resultSet.getString("staff_gender") %>">
 	<br>
-	Address:<br>
+	Address:<
 	<input type="text" name="staff_address" value="<%=resultSet.getString("staff_address") %>">
 	<br>
-	Phone:<br>
+	Phone:
 	<input type="text" name="staff_phone" value="<%=resultSet.getString("staff_phone") %>">
 	<br><br>
-	Category:<br>
+	Category:
 	<input type="text" name="staff_category" value="<%=resultSet.getString("staff_category") %>">
 	<br>
 	<input type="submit" value="submit">
@@ -61,5 +62,6 @@
 	e.printStackTrace();
 	}
 	%>
+	</center>
 	</body>
 	</html>
