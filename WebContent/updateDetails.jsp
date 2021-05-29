@@ -30,6 +30,13 @@
 	%>
 	
 	<!DOCTYPE html>
+	<style>
+	label {
+   	width: 200px;
+   	display: inline-block;
+   	text-align: right;
+	}
+</style>
 	<html>
 	<body class="u-body">
     		<section class="u-clearfix u-grey-90 u-section-1" id="sec-1dd5">
@@ -43,29 +50,28 @@
 	<div class="sep"></div>
 
 	<div class="inputs">
-	<p style="color:black">
 	<center>
 	<input type="hidden" name="staff_id" value="<%=resultSet.getString("staff_id") %>">
+		<label>STAFF ID: </label>
 	<input type="text" name="staff_id" value="<%=resultSet.getString("staff_id") %>" disabled>
 	<br><br>
-	Name:
+	<label>NAME: </label>
 	<input type="text" name="staff_name" value="<%=resultSet.getString("staff_name") %>">
 	<br><br>
-	Gender:
+	<label>GENDER: </label>
 	<input type="text" name="staff_gender" value="<%=resultSet.getString("staff_gender") %>">
 	<br><br>
-	Address:
+	<label>ADDRESS: </label>
 	<input type="text" name="staff_address" value="<%=resultSet.getString("staff_address") %>">
 	<br><br>
-	Phone:
+	<label>PHONE NUMBER: </label>
 	<input type="text" name="staff_phone" value="<%=resultSet.getString("staff_phone") %>">
 	<br><br>
-	Category:
+	<label>CATEGORY: </label>
 	<input type="text" name="staff_category" value="<%=resultSet.getString("staff_category") %>">
 	<br><br>
 	<input type="submit" value="submit">
 		</center>				
-	</p>
 	</div>
 	</form>
 	 </section>
