@@ -2,7 +2,7 @@
 <%@page import="java.sql.*"%>
 <%@ include file="header.html"%>
 	<%
-	String id = request.getParameter("staff_id");
+	String id = request.getParameter("id");
 	String driver = "com.mysql.jdbc.Driver";
 	String connectionUrl = "jdbc:mysql://us-cdbr-east-04.cleardb.com:3306/heroku_82bd4eac5871c46";
 	String userid = "b83c5dac6a4a40";
