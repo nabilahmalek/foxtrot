@@ -31,10 +31,20 @@
 	
 	<!DOCTYPE html>
 	<html>
-	<body>
-	<center>
-	<h1>Update Staff Details</h1>
+	<body class="u-body">
+    		<section class="u-clearfix u-grey-90 u-section-1" id="sec-1dd5">
+     	 		<div class="u-clearfix u-sheet u-sheet-1">
+        		<br><br>
+        		<div class="container">
 	<form method="post" action="updateProcess.jsp">
+		<div class="header">
+			<h3 style="text-align:center;">UPDATE STAFF DETAILS</h3>									
+		</div>
+	<div class="sep"></div>
+
+	<div class="inputs">
+	<p style="color:black">
+	<center>
 	<input type="hidden" name="staff_id" value="<%=resultSet.getString("staff_id") %>">
 	<input type="text" name="staff_id" value="<%=resultSet.getString("staff_id") %> disabled">
 	<br><br>
@@ -54,7 +64,11 @@
 	<input type="text" name="staff_category" value="<%=resultSet.getString("staff_category") %>">
 	<br><br>
 	<input type="submit" value="submit">
+		</center>				
+	</p>
+	</div>
 	</form>
+	 </section>
 	<%
 	}
 	connection.close();
@@ -62,6 +76,5 @@
 	e.printStackTrace();
 	}
 	%>
-	</center>
 	</body>
 	</html>
