@@ -36,23 +36,23 @@
 	<h1>Update Staff Details</h1>
 	<form method="post" action="updateProcess.jsp">
 	<input type="hidden" name="staff_id" value="<%=resultSet.getString("staff_id") %>">
-	<input type="text" name="staff_id" value="<%=resultSet.getString("staff_id") %>">
-	<br>
+	<input type="text" name="staff_id" value="<%=resultSet.getString("staff_id") %> disabled">
+	<br><br>
 	Name:
 	<input type="text" name="staff_name" value="<%=resultSet.getString("staff_name") %>">
-	<br>
+	<br><br>
 	Gender:
 	<input type="text" name="staff_gender" value="<%=resultSet.getString("staff_gender") %>">
-	<br>
+	<br><br>
 	Address:<
 	<input type="text" name="staff_address" value="<%=resultSet.getString("staff_address") %>">
-	<br>
+	<br><br>
 	Phone:
 	<input type="text" name="staff_phone" value="<%=resultSet.getString("staff_phone") %>">
 	<br><br>
 	Category:
 	<input type="text" name="staff_category" value="<%=resultSet.getString("staff_category") %>">
-	<br>
+	<br><br>
 	<input type="submit" value="submit">
 	</form>
 	<%
