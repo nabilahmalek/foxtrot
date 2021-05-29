@@ -34,7 +34,7 @@
 	label {
    	width: 100px;
    	display: inline-block;
-   	text-align: right;
+   	text-align: left;
 	}
 </style>
 	<html>
