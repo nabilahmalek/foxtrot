@@ -2,9 +2,9 @@
 
 
 <%! String driverName = "com.mysql.jdbc.Driver";%>
-<%!String url = "jdbc:mysql://localhost:3306/restaurant";%>
-<%!String user = "root";%>
-<%!String psw = "Eqmalzahri1@";%>
+<%!String url = "jdbc:mysql://us-cdbr-east-04.cleardb.com:3306/heroku_82bd4eac5871c46";%>
+<%!String user = "b83c5dac6a4a40";%>
+<%!String psw = "1bbc4399";%>
 <%
 
 String id = request.getParameter("staff_id");
