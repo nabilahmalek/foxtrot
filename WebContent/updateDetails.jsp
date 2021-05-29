@@ -47,10 +47,10 @@
 	<input type="text" name="staff_address" value="<%=resultSet.getString("staff_address") %>">
 	<br>
 	Phone:<br>
-	<input type="email" name="staff_phone" value="<%=resultSet.getString("staff_phone") %>">
+	<input type="text" name="staff_phone" value="<%=resultSet.getString("staff_phone") %>">
 	<br><br>
 	Category:<br>
-	<input type="email" name="staff_category" value="<%=resultSet.getString("staff_category") %>">
+	<input type="text" name="staff_category" value="<%=resultSet.getString("staff_category") %>">
 	<br>
 	<input type="submit" value="submit">
 	</form>
