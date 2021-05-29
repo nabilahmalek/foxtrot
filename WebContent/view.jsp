@@ -6,7 +6,7 @@
 <tr>
 
 </tr>
-<tr bgcolor="#A52A2A" style="text-color:#ffffff;">
+<tr bgcolor="#A52A2A" style="color:#ffffff;">
 <td><b>ID</b></td>
 <td><b>NAME</b></td>
 <td><b>GENDER</b></td>
