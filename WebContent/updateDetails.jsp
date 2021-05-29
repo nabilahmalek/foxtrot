@@ -64,7 +64,7 @@
 	<label>ADDRESS: </label>
 	<input type="text" name="staff_address" value="<%=resultSet.getString("staff_address") %>">
 	<br><br>
-	<label>PHONE NUMBER: </label>
+	<label>P.NUMBER: </label>
 	<input type="text" name="staff_phone" value="<%=resultSet.getString("staff_phone") %>">
 	<br><br>
 	<label>CATEGORY: </label>
