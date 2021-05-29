@@ -46,7 +46,7 @@
 	<p style="color:black">
 	<center>
 	<input type="hidden" name="staff_id" value="<%=resultSet.getString("staff_id") %>">
-	<input type="text" name="staff_id" value="<%=resultSet.getString("staff_id") %> disabled">
+	<input type="text" name="staff_id" value="<%=resultSet.getString("staff_id") %>" disabled>
 	<br><br>
 	Name:
 	<input type="text" name="staff_name" value="<%=resultSet.getString("staff_name") %>">
@@ -54,7 +54,7 @@
 	Gender:
 	<input type="text" name="staff_gender" value="<%=resultSet.getString("staff_gender") %>">
 	<br><br>
-	Address:<
+	Address:
 	<input type="text" name="staff_address" value="<%=resultSet.getString("staff_address") %>">
 	<br><br>
 	Phone:
